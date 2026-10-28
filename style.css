@@ -1,0 +1,17 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background:#f8f9ff; color:#333; }
+header { background:#FF0000; color:white; padding:15px 0; text-align:center; position:sticky; top:0; z-index:100; }
+header h1 { font-size:28px; } header h1 span { color:black; background:white; padding:2px 8px; border-radius:5px; }
+nav { background:#111; padding:12px; text-align:center; }
+nav a { color:white; text-decoration:none; margin:5px 8px; font-size:14px; padding:6px 12px; border-radius:20px; display:inline-block; }
+nav a:hover, nav a.active { background:#FF0000; }
+.container { max-width:1000px; margin:20px auto; padding:0 15px; }
+.hero { background:white; padding:40px 20px; text-align:center; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.1); }
+.btn { background:#FF0000; color:white; padding:12px 25px; text-decoration:none; border-radius:25px; display:inline-block; font-weight:bold; margin:5px; border:none; cursor:pointer; }
+.btn:hover { background:#111; }
+.card-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; margin-top:20px; }
+.card { background:white; padding:20px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.08); border-left:4px solid #FF0000; }
+.card h3 { color:#FF0000; }
+.form-box, .tool-box { background:white; padding:25px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.08); }
+input, textarea, select { width:100%; padding:12px; margin:8px 0 15px 0; border:1px solid #ddd; border-radius:8px; }
+footer { background:#111; color:#aaa; text-align:center; padding:20px; margin-top:40px; }
